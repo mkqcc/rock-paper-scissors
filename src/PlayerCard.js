@@ -20,7 +20,7 @@ const PlayerCard = props => {
 
     return (
         <div className="playerCard">
-            <img src={image} />
+            <img src={image} width="250" height="250"/>
         </div>
     )
 }
